@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Record of Tasks</h1>
+    <p>Track your IB Computer Science IA project work.</p>
+    <ul>
+        <li><a href="{{ url_for('display') }}">View all tasks</a></li>
+        <li><a href="{{ url_for('input_task') }}">Add a new task</a></li>
+    </ul>
+{% endblock %}

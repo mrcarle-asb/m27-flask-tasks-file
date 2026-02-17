@@ -1,0 +1,9 @@
+datetime,student_name,title,description,criterion
+2025-09-15 10:30:00,Alice,Plan IA project,Outlined project scope and timeline for the IA,Planning
+2025-09-16 14:15:00,Bob,Research Flask tutorials,Watched CS50 Flask lecture and took notes,Planning
+2025-09-18 09:00:00,Alice,Design database schema,Drew ER diagram for the task tracking system,Designing
+2025-09-19 11:30:00,Charlie,Sketch wireframes,Created paper wireframes for all three pages,Designing
+2025-09-22 13:45:00,Bob,Build task entry form,Created HTML form with all required fields,Developing
+2025-09-23 10:00:00,Alice,Implement display route,Wrote Flask route to read CSV and render template,Developing
+2025-09-25 15:30:00,Charlie,Test form submission,Submitted 10 test entries and verified CSV output,Testing
+2025-09-26 09:15:00,Bob,Fix date formatting,Corrected datetime format string in the save function,Developing
