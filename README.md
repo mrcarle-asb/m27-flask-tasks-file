@@ -2,6 +2,7 @@
 
 This app is a small personal task tracker — the kind of tool you might build to log your own project work. The display page already works: run the app and visit `/display` to see pre-loaded tasks. Your job is to build the input form so you can add new ones.
 
+The assignment is described below.  For detailed instructional material, be sure to click through https://asbflask.netlify.app/03-forms-file-io/
 ## Setup
 
 1. Open this project in GitHub Codespaces (or your local environment).
@@ -67,3 +68,4 @@ Add a `required` attribute to your form inputs so the browser validates before s
 ## What to Submit
 
 Push your completed code to your repository.
+
