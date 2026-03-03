@@ -14,12 +14,19 @@ The assignment is described below.  For detailed instructional material, be sure
 
 ## Assignment Requirements
 
-### Step 1: Study the starter code
+### Step 1: Draw the system
 
-Visit `/display`. The table is already working — tasks are read from `tasks.csv` and rendered with Jinja. Read `app.py` and `templates/display.html` carefully before you write anything:
-- How does the `/display` route read the CSV?
-- How does the `/display/<project_title>` route filter it?
-- What does the Jinja conditional in `display.html` do with the `status` field?
+Run the app and visit `/display`. The table is already working. Before you write any code, draw a diagram — on paper or digitally — that shows how that page gets built.
+
+Your diagram should trace what happens from the moment a browser requests `/display` to the moment it receives a finished HTML page. It needs to include all of these components:
+
+- **`app.py`** — specifically the `display` route
+- **`tasks.csv`** — where the data lives
+- **`render_template()`** — the hand-off from Python to HTML
+- **`base.html`** — the shared page structure
+- **`display.html`** — the template that fills it in
+
+Show how these components connect in sequence. Label your arrows. The goal is a drawing that makes it clear what each part does and what order things happen in — not a formal diagram, just one that someone unfamiliar with Flask could follow.
 
 ### Step 2: Build the HTML form
 
